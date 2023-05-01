@@ -1,0 +1,44 @@
+body {
+    margin: 20px;
+    border: 5px;
+    padding: 15px;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+}
+
+h3 {
+    color:midnightblue;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+ul {
+    list-style: none;
+}
+
+.jobs {
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.social {
+    text-align: center;
+    text-decoration: none;
+}
+
+ul .meta {
+    display: inline-block;
+}
+
+
