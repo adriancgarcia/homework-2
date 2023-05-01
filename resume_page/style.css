@@ -8,12 +8,14 @@ body {
 h1 {
     text-align: center;
     font-family: 'Josefin Slab', serif;
+    /* margin-top: 40px; */
 }
 
 h3 {
     color:midnightblue;
     text-align: center;
 }
+
 
 img {
     display: block;
@@ -22,14 +24,33 @@ img {
     width: 50%;
 }
 
-.nav ul{
-    list-style: none;
-    margin: 0;
-    padding:0;
+.nav {
+    padding-bottom: 40px;
 }
 
-ul {
+ul { 
     list-style: none;
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+.nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+.nav li { 
+    float: left;
+}
+
+.nav li a{
+
+    display: block;
+    /* text-align: center;
+    text-decoration: none; */
+    padding: 16px;
 }
 
 .jobs {
@@ -37,14 +58,22 @@ ul {
     text-decoration: none;
 }
 
-
-.social {
+/* .social {
     text-align: center;
     text-decoration: none;
-}
+} */
 
-ul .meta {
+/* ul .meta {
     display: inline-block;
+} */
+
+.column {
+    float: left;
+    width: 33%;
 }
 
-
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
